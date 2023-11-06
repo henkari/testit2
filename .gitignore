@@ -1,0 +1,39 @@
+# Ignore directories and files created by common development tools
+node_modules/
+build/
+dist/
+.cache/
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore user-specific files
+*.secret
+
+# Ignore project-specific files
+config.js
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore package manager files
+yarn-error.log
+npm-debug.log
+
+# Ignore compiled code and build output
+*.min.js
+*.min.css
+*.map
+
+# Ignore database files
+*.sqlite
+*.db
